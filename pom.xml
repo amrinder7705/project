@@ -229,6 +229,13 @@
 					</execution>
 				</executions>
 			</plugin>
+			 <repositories>
+    <repository>
+      <id>egit</id>
+      <name>Eclipse egit</name>
+      <url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
+    </repository>
+  </repositories>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-project-info-reports-plugin</artifactId>
